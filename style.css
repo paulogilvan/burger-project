@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #838383;
+}
+
+.container-buttons {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  background-color: rgb(255, 203, 106);
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  padding: 10px;
+  font-weight: bold;
+  width: 110px;
+  cursor: pointer;
+  
+}
+button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 20px;
+  justify-content: center;
+}
+li {
+  border: solid 2px rgb(161, 44, 2);
+  border-radius: 5px;
+  padding: 5px;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+p {
+  color: rgb(219, 160, 51);
+}
+.item-price {
+  font-weight: bold;
+  color: rgb(255, 203, 106);
+}
